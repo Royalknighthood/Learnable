@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    padding: 50px 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.LOgo{
+    display: flex;
+    width: 100px;
+    height: auto;
+    margin: 3px;
+}
+
+.button1{
+    float: right;
+    margin: auto;
+    color: hsl(322, 100%, 66%);
+    background-color: white ;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 10px 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: hsl(322, 100%, 66%) solid 1px;
+    border-radius: 20px;
+}
+.main {
+    padding: 50px;
+    text-align: center;
+}
+.main h1{
+    position: relative;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.col-center p{
+    font-size: 1em;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 30px;
+    color: hsl(229, 8%, 60%);
+}
+
+.btn {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+
+.screen-mockups {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.content .icon-left {
+    position: relative;
+    width: 30%;
+    margin: auto;
+
+}
+
+.content .icon-right {
+    position: relative;
+    width: 35%;
+}
+
+.content .icon-left .icon-communities {
+    position: relative;
+    width: 10%;
+}
+
+.icon-left  h1{
+    font-size: 5em;
+    text-align: justify;
+    color:hsl(192, 100%, 9%);
+}
+
+.icon-left p{
+    font-size: 2em;
+    color:hsl(229, 8%, 60%)
+}
+
+.content .icon-right .icon-messages {
+    position: relative;
+    width: 10%;
+}
+
+.icon-right h1{
+    font-size: 5em;
+    text-align: justify;
+    color:hsl(192, 100%, 9%);
+}
+
+.icon-right p{
+    font-size: 2em;
+    color:hsl(229, 8%, 60%)
+}
+
+.contaiNER {
+    background-size: cover;
+}
+
+.contaiNER .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contaiNER .content .col-left{
+    position: relative;
+    width: 30%;
+}
+
+.contaiNER .content .col-left .content-title {
+    margin-bottom: 20px;
+}
+
+.contaiNER .content .col-left p {
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.contaiNER .content .col-right{
+    position: relative;
+    width: 70%;
+}
+
+.contaiNER .content .col-right .illustration-grow-together {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    min-height: 150px;
+    margin-right: 5%;
+}
+
+.content .col-left .illustration-flowing-conversation {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    min-height: 150px;
+    margin-right: 5%;
+}
+
+.content .col-right .content-title {
+    margin-bottom: 20px;
+}
+
+.content .col-right p {
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.content .col-left .content-title {
+    margin-bottom: 20px;
+}
+
+.content .col-left p{
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.content .col-right .illustration-your-users {
+    display: flex;
+    margin: auto;
+    width: 500px;
+    min-height: 150px;
+    margin-right: 5%;
+}
+
+.down h1{
+    position: relative;
+    text-align: center;
+    color: hsl(192, 100%, 9%);
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.btn2 {
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 40%;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.span {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.span .span-left{
+    position: relative;
+    width: 50%;
+}
+
+
+.span-left .LOGO{
+    display: flex;
+    width: 80px;
+    height: auto;
+    margin: 5px;
+}
+
+.span .span-left p{
+    text-align: justify;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 2px;
+} 
+
+.span .span-left .contact-icon {
+    margin-top: 20px;
+    color:hsl(192, 100%, 9%);
+
+}
+
+.span-left .contact-icon .fa-phone {
+    margin-right: 20px;
+}
+
+.span-left .contact-icon .fa-envelope{
+    margin-right: 20px;
+}
+
+.span-left .media-icons {
+    font-size: 30px;
+}
+
+.span-left .media-icons a{
+    color:hsl(192, 100%, 9%) ;
+}
+
+.span-left .media-icons a :hover {
+    color:blue ;
+}
+
+.span-right {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.span-right .h{
+    display: flex;
+    position: relative;
+    width: 70%;
+    margin-left: 80%;
+}
+
+.span-right p{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
